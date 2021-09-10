@@ -1,2 +1,4 @@
-# mechaCar_statistical_analysis
-Module 15
+# Mecha Car Statistical Analysis - Berkeley DA
+Yae Jin Park\
+Module 15 - Statistics and R
+
