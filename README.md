@@ -46,3 +46,18 @@ Lot 3 is also statistically different from the population mean as the p-value is
 The PSI of all lots are statistically different from the population mean. The p-value is less than 0.05% for this T-test as well.
 
 ## Study Design: MechaCar vs Competition
+
+Question to answer - is a MechaCar's weight related to its length?
+
+H0: MechaCar's weight is not related to its length (slope = 0)
+Ha: MechaCar's weight is related to its length (slope =/= 0)
+
+I would use linear regression on vehicle weight and vehicle length since I'm only comparing two variables. If there is a relationship between the two, there will be a slope that shows said relationship. I would then call summary() in order to see the p-value that can check if the null hypothesis can be rejected.
+
+The data I will need is the same dataset, MechaCar_mpg.csv, as the file contains data of both the vehicles' length and weight.
+
+Out of curiosity, I ran this test and got the following result:
+
+![LM2](https://github.com/yaejinpark/mechaCar_statistical_analysis/blob/main/resources/d4.png)
+
+The slope is -0.000135 and the p-value is 0.3959, which means I cannot reject my null hypothesis. It's likely that the vehicle's weight and length are not related.
