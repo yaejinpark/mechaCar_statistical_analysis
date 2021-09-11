@@ -27,16 +27,19 @@ Question: The design specifications for the MechaCar suspension coils dictate th
 **Looking at the total summary (second screenshot in this section), all manufacturing data meet the design specification as the PSI variance is about 62.29. However, looking at the summary of individual lot data (first screenshot in this section), lot 3 does not meet the specification as it's PSI variance is about 170.28. Lot 1 and 2 meet the design specifications as their PSI variances are 0.9796 and 7.4693, respectively.**
 
 ## T-Tests on Suspension Coils
-Objective: determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+Null hypothesis: PSI for each manufacturing lot (and all lots combined) is statistically different from the population mean of 1,500 pounds per square inch.
 
 ### Lot 1
 ![Lot 1](https://github.com/yaejinpark/mechaCar_statistical_analysis/blob/main/resources/d3-ttest_lot1.png)
+The p-value is less than 0.05%, significant enough to reject the null hypothesis, the PSI for lot 1 is statistically different from the population mean.
 
 ### Lot 2
 ![Lot 2](https://github.com/yaejinpark/mechaCar_statistical_analysis/blob/main/resources/d3-ttest_lot2.png)
+Lot 2 also has a p-value less than 0.05%, so it can be said that the PSI for lot 2 is also statistically different from the population mean.
 
 ### Lot 3
 ![Lot 3](https://github.com/yaejinpark/mechaCar_statistical_analysis/blob/main/resources/d3-ttest_lot3.png)
+
 
 ### All Lots
 ![All Lots](https://github.com/yaejinpark/mechaCar_statistical_analysis/blob/main/resources/d3-ttest.png)
