@@ -48,7 +48,7 @@ lot_summary <- sc_table %>% group_by(Manufacturing_Lot) %>% summarize(
 
 # Determine if the PSI across all manufacturing lots is statistically different from 
 # the population mean of 1,500 pounds per square inch.
-t.test(log10(sc_table$PSI), mu= mean(log10(sc_table$PSI)))
+t.test(log10(sc_table$PSI), mu= 1500)
 
 # Determine if the PSI for each manufacturing lot is statistically different from 
 # the population mean of 1,500 pounds per square inch.
